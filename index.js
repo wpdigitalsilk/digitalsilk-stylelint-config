@@ -3,12 +3,6 @@ module.exports = {
 	plugins: [],
 	rules: {
 		'at-rule-empty-line-before': null,
-		'at-rule-no-unknown': [
-			true,
-			{
-				ignoreAtRules: ['mixin', 'define-mixin'],
-			},
-		],
 		'color-hex-length': 'short',
 		'color-named': 'never',
 		'comment-empty-line-before': null,
@@ -52,7 +46,6 @@ module.exports = {
 				message: 'Selector should use lowercase and separate words with hyphens (selector-id-pattern)',
 			},
 		],
-		'selector-nested-pattern': null,
 		'selector-pseudo-element-colon-notation': 'double',
 		'selector-type-case': 'lower',
 		'value-keyword-case': [

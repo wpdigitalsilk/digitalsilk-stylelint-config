@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.5.2
+
+### Patch Changes
+
+- update deps
+
 ## 1.5.1
 
 ### Patch Changes
